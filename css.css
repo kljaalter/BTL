@@ -62,20 +62,11 @@ filter: opacity(.6);
 }
 
 #tickets {
+  cursor: pointer;
   margin: 0 auto;
-  left: 0;
-  right: 0;
-  width: 222px;
+  display: block;
+  width: 350px;
   margin-top: 200px;
-}
-
-#link {
-  color: black;
-  text-decoration: none;
-  font-size: 40px;
-  border-style: solid;
-  padding: 0px 10px;
-  border-width: 5px;
   -webkit-filter: opacity(1);
   filter: opacity(1);
   -webkit-transition: -webkit-filter 0.2s;
@@ -83,7 +74,7 @@ filter: opacity(.6);
   transition: filter 0.2s;
 }
 
-#link:hover {
+#tickets:hover {
   -webkit-filter: opacity(.6);
   filter: opacity(.6);
 }
@@ -153,6 +144,7 @@ filter: opacity(.6);
   margin: 40px 0 0 5px;
   color: black;
   font-size: 20px;
+  padding-bottom: 15px;
 }
 
 .jump {
@@ -197,7 +189,7 @@ filter: opacity(.6);
 
   li a {
     padding: 0px;
-    padding-right:15px;
+    padding-right:20px;
     font-size: 25px;
     cursor: none;
   }
@@ -208,17 +200,10 @@ filter: opacity(.6);
   }
 
   #tickets {
-    width: 198px;
+    width: 250px;
   }
 
-  #link {
-    font-size: 35px;
-    padding: 0px 10px;
-    border-width: 5px;
-    width: 150px;
-  }
-
-  #link:hover {
+  #tickets:hover {
     -webkit-filter: opacity(1);
     filter: opacity(1);
   }
@@ -244,7 +229,6 @@ filter: opacity(.6);
 
   #footer {
     margin-top: 40px;
-    padding-bottom: 15px;
     text-align: center;
     color: black;
     font-size: 20px;
