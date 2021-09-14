@@ -216,7 +216,7 @@ filter: opacity(.6);
 
   #info {
     margin: 0 auto;
-    width: 270px;
+    width: 90%;
   }
 
   .title {
@@ -258,3 +258,7 @@ filter: opacity(.6);
     color: black;
     font-size: 25px;
   }
+  #text {
+    font-size: 15px;
+  }
+}
